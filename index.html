@@ -42,4 +42,55 @@
     </div>
     <script src="script.js"></script>
   </body>
-</html>
+<table>
+  <thead>
+    <tr>
+      <th>Task Name</th>
+      <th>Assigned To</th>
+      <th>Due Date</th>
+      <th>Status</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Task 1</td>
+      <td>John</td>
+      <td>2022-01-31</td>
+      <td>Not Started</td>
+      <td>
+        <button class="edit-task">Edit</button>
+        <button class="delete-task">Delete</button>
+      </td>
+    </tr>
+    <tr>
+      <td>Task 2</td>
+      <td>Jane</td>
+      <td>2022-02-15</td>
+      <td>In Progress</td>
+      <td>
+        <button class="edit-task">Edit</button>
+        <button class="delete-task">Delete</button>
+      </td>
+    </tr>
+    <tr>
+      <td>Task 3</td>
+      <td>Mike</td>
+      <td>2022-03-01</td>
+      <td>Complete</td>
+      <td>
+        <button class="edit-task">Edit</button>
+        <button class="delete-task">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="5">
+        <input type="text" id="new-task" placeholder="New Task">
+        <button id="add-task">Add Task</button>
+      </td>
+    </tr>
+  </tfoot>
+</table>
+
